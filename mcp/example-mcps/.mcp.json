@@ -1,0 +1,25 @@
+{
+    "mcpServers": {
+      "verbose-server": {
+        "type": "http",
+        "url": "http://127.0.0.1:8000/mcp"
+      },
+      "context7": {
+        "type": "http",
+        "url": "https://mcp.context7.com/mcp",
+        "headers": {
+          "CONTEXT7_API_KEY": "ctx7sk-d08bfa83-fbfc-42e5-ad91-cfb544b61d76"
+        }
+      },
+      "tavily": {
+        "type": "http",
+        "url": "https://mcp.tavily.com/mcp/?tavilyApiKey=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"
+      },
+      "playwright": {
+        "command": "npx",
+        "args": [
+          "@playwright/mcp@latest"
+        ]
+      }
+    }
+  }
